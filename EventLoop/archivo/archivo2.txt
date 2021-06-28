@@ -1,0 +1,7 @@
+Linea de documento numero 1 
+Linea de documento numero 2 
+Linea de documento numero 3 
+Linea de documento numero 4 
+Linea de documento numero 5 
+Linea de documento numero 6 
+Final del documento
