@@ -23,5 +23,15 @@ function esPalindromo3(palabra){
     return palabraReversa === palabra? "es palindromo": "no es palindromo" 
 }
 
+function esPermutacionDePalindromo(cadena){
+    let letras = new Set();
+    cadena = cadena.replace(/\s/g,"").toLowerCase();
+    for(letra of cadena){
+        if(letras.has(letra)) letras.delete(letra);
+        else letras.add(letra)
+    }
 
-console.log(esPalindromo3("Ali tomo tila"));
+    return letras.size <=1?"Puede ser permutación de palindromo": "No puede ser permutación de palindromo"
+}
+
+console.log(esPermutacionDePalindromo("Ali tomo tila"));
